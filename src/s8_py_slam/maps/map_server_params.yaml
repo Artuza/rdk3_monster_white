@@ -1,0 +1,6 @@
+map_server:
+  ros__parameters:
+    yaml_filename: "src/s8_py_slam/maps/sim_tec_warehouse.yaml"
+    topic_name: "static_map"
+    frame_id: "map"
+    use_sim_time: True

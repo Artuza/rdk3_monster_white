@@ -1,0 +1,3 @@
+builtin_interfaces/Time timestamp
+int64 robot_id
+geometry_msgs/Pose pose

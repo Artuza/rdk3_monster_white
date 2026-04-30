@@ -1,0 +1,4 @@
+int64 robot_id
+---
+geometry_msgs/Pose2D pickup_pose
+geometry_msgs/Pose2D delivery_pose

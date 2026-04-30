@@ -1,0 +1,7 @@
+image: sim_tec_warehouse_enhanced.pgm
+mode: scale
+resolution: 0.01
+origin: [-0.00679, -0.0102, 0]
+negate: 0
+occupied_thresh: 1.0
+free_thresh: 0.0
