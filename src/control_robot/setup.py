@@ -22,10 +22,11 @@ setup(
             'pytest',
         ],
     },
-        entry_points={
-                'console_scripts': [
-                    'controlador_exe = control_robot.controlador:main',
-                    'tracking_exe = control_robot.seguidor_trayectoria:main'
-                ],
-            },
+    entry_points={
+        'console_scripts': [
+            'controlador_exe = control_robot.controlador:main',
+            'tracking_exe = control_robot.seguidor_trayectoria:main',
+            'distancia_control = control_robot.distancia_control:main'
+        ],
+    },
 )

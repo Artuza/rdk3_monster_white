@@ -1,0 +1,25 @@
+trajectory_follower:
+  ros__parameters:
+
+    # ── preset ────────────────────────────────────────────────────────
+    # Built-in shapes: cuadrado | triangulo | circulo | ocho
+    # Ignored when 'waypoints' list is provided.
+    preset: cuadrado
+
+    # ── custom waypoints (optional) ───────────────────────────────────
+    # Flat list [x0, y0, x1, y1, ...] in metres (robot-frame origin).
+    # Uncomment and edit to override the preset.
+    # waypoints: [1.0, 0.0,  1.0, 1.5,  0.0, 1.5,  0.0, 0.0]
+
+    # ── behaviour ─────────────────────────────────────────────────────
+    loop: false          # true → repeat the trajectory indefinitely
+
+    # ── controller gains ──────────────────────────────────────────────
+    k_v: 1.00            # linear proportional gain  [m/s / m]
+    k_w: 3.00            # angular proportional gain [rad/s / rad]
+    v_max: 0.60          # max linear speed  [m/s]
+    w_max: 2.50          # max angular speed [rad/s]
+
+    # ── tolerances ────────────────────────────────────────────────────
+    dist_tol: 0.10       # waypoint reached when dist < this [m]
+    heading_tol: 0.08    # final heading tolerance [rad] (~5°)

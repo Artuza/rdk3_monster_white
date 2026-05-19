@@ -1,0 +1,15 @@
+<CycloneDDS>
+  <Domain>
+    <General>
+      <Interfaces>
+        <NetworkInterface name="wlx00e04c4bcb26"/>
+      </Interfaces>
+    </General>
+    <Discovery>
+      <Peers>
+        <Peer Address="192.168.0.122"/>
+        <Peer Address="192.168.8.106"/>
+      </Peers>
+    </Discovery>
+  </Domain>
+</CycloneDDS>

@@ -1,0 +1,13 @@
+topics:
+  /optitrack/rigid_body:
+    type: geometry_msgs/msg/PoseStamped
+    from_domain: 0
+    to_domain: 30
+    qos:
+      reliability: best_effort
+  /optitrack/marker:
+    type: geometry_msgs/msg/PointStamped
+    from_domain: 0
+    to_domain: 30
+    qos:
+      reliability: best_effort

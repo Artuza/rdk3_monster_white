@@ -1,0 +1,10 @@
+# Sugerencia de calibración de giros
+# w_cmd=1.00  t_spin=2.5s  n=6
+# opt_media=17.6°  teórico=143.2°
+angle:
+  correction_factor: 0.1228
+  # spin_up_delay_s: 1.13
+  # overshoot_deg:   12.4
+# Para drift_square_robot:
+#   spin_kp:    2.5   # sin cambios necesarios con P controller
+#   spin_w_min: 1.24  # reducir si hay overshoot excesivo
